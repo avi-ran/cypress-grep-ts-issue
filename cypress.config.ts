@@ -24,7 +24,7 @@ export default defineConfig({
       grepOmitFiltered: true
     },
     setupNodeEvents: async (on, config) => {
-      require('@cypress/grep/src/plugin')(config);
+      require('@bahmutov/cy-grep/src/plugin')(config);
       return config;
     },
   },
