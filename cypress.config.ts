@@ -12,7 +12,7 @@ export default defineConfig({
   },
   video: true,
   e2e: {
-    supportFile: "cypress/support/commands.ts",
+    supportFile: "cypress/support/e2e.ts",
     pageLoadTimeout: 180000,
     experimentalModifyObstructiveThirdPartyCode: true,
     chromeWebSecurity: false,
